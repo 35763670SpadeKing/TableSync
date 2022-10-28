@@ -2,10 +2,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Date;
 
-
-/**
- * Created by 14978 on 2017/6/25.
- */
 public class RandomValue {
     //随机字符串字典
     public static String base = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
