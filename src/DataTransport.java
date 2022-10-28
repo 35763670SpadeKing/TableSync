@@ -3,7 +3,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
 public class DataTransport {
 
     public static void insertDB(String id, String sql, Connection conn) {
