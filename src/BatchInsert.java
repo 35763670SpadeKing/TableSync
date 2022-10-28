@@ -2,21 +2,6 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import java.sql.*;
 public class BatchInsert {
-/*    public static void insertDB(String id, String sql, Connection conn) {
-        int i = 0;
-        try {
-            Statement sts = conn.createStatement();
-            i = sts.executeUpdate(sql);
-            if (i == -1) {
-                System.out.println(id + " insert fail.");
-            }
-        } catch (SQLException e) {
-            System.out.println(sql + " insert fail.");
-            e.printStackTrace();
-        }
-    }
-  */
-
     private static long begin = 1;//起始id
     private static long increment = 10000 ;
     // long onetime = begin + end ;
