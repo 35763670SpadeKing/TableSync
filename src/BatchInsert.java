@@ -23,7 +23,7 @@ public class BatchInsert {
     //private long end = begin + end ;//每次循环插入的数据量
     private static String url = "jdbc:mysql://localhost:3306/bigdata?useServerPrepStmts=false&rewriteBatchedStatements=true&useUnicode=true";
     private static String user = "root";
-    private static String password = "xzq3576367";
+    private static String password = "password";
 
 
 
