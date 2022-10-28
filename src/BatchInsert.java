@@ -4,7 +4,6 @@ import java.sql.*;
 public class BatchInsert {
     private static long begin = 1;//起始id
     private static long increment = 10000 ;
-    // long onetime = begin + end ;
     //private long end = begin + end ;//每次循环插入的数据量
     private static String url = "jdbc:mysql://localhost:3306/bigdata?useServerPrepStmts=false&rewriteBatchedStatements=true&useUnicode=true";
     private static String user = "root";
